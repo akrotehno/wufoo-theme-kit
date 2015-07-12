@@ -36,6 +36,14 @@ html {
     background-color: transparent;
 }
 
+#header {
+    display: none;
+}
+
+form li{
+	padding: 0px;
+}
+
 #logo {
     background-image: none;
     background-color: #669900
@@ -52,7 +60,7 @@ html {
 }
 
 .wufoo .focused {
-    background: transparent;
+    background: transparent !important;
 }
 
 .wufoo .instruct {
@@ -60,13 +68,12 @@ html {
 }
 /* Borders */
 
-
 .wufoo .info {
     border-bottom: 1px dotted #CCCCCC
 }
 
 form li div span {
-  margin: 4px;
+    margin: 4px;
 }
 
 .wufoo .instruct {
@@ -104,8 +111,8 @@ form li div span {
     color: #444444
 }
 
-.wufoo li{
-	width: 100%;
+.wufoo li {
+    width: 100%;
 }
 
 .wufoo li div,
@@ -119,10 +126,10 @@ form li div span {
 .wufoo textarea.textarea,
 .wufoo select.select,
 .wufoo label.choice {
-  border: none;
-  padding: 10px;
-  box-sizing: border-box;
-  background-color: rgb(228, 236, 242);
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: rgb(228, 236, 242);
 }
 
 .wufoo label.choice {
