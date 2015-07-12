@@ -27,6 +27,22 @@ html {
     background-color: transparent !important;
 }
 
+p.error{
+	background-color: rgb(247, 104, 5) !important;
+  padding-bottom: 8px !important;
+  color: rgb(255, 255, 255) !important;
+  padding-left: 10px !important;
+}
+
+#errorMsg b{
+  background-color: transparent !important;
+  padding: 0px !important;
+}
+
+#errorMsg b{
+color: #FFF !important;
+}
+
 #header {
     display: none;
 }
@@ -100,16 +116,29 @@ form li div span {
 }
 
 #errorLi{
-  background-color: transparent !important;
+	background-color: rgba(247, 104, 5, 1) !important;
   border: none;
+  border-radius: 0px !important;
   margin: 0px;
+}
+
+#errorMsgLbl{
+	color: #FFFFFF !important;
+}
+
+form span.req{
+	  color: inherit !important;
+}
+
+form li.error .desc{
+	  color: inherit !important;
 }
 
 .wufoo label.desc,
 .wufoo legend.desc {
-    font-size: 95%;
-    font-family: inherit;
-    color: #444444
+  font-size: 16px !important;
+  font-family: inherit;
+  color: #06538F !important;
 }
 
 .wufoo li {
