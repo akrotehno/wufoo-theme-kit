@@ -33,7 +33,7 @@ CSS rules into "custom.css".
 
 html {
     background-image: none;
-    background-color: #99cc00
+    background-color: transparent;
 }
 
 #logo {
