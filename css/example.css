@@ -17,23 +17,14 @@ CSS rules into "custom.css".
 /* - - - Default - - - */
 /* Logo */
 
-#logo a {
-    background-image: url('http://wufoo.com/images/themes/logos/shark.png');
-    min-height: 0;
-    height: 40px
-}
-
 * html #logo a {
-    /* IE6 png Support */
-    
     background-image: none;
-    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src="http://wufoo.com/images/themes/logos/shark.png", sizingMethod="crop");
 }
 /* Backgrounds */
 
 html {
-    background-image: none;
-    background-color: transparent;
+    background-image: none !important;
+    background-color: transparent !important;
 }
 
 #header {
@@ -56,7 +47,11 @@ form li{
 
 .wufoo input.text,
 .wufoo textarea.textarea {
-    background: #FFFFFF url(/images/fieldbg.gif) repeat-x top
+    resize:none;
+}
+
+form li.error{
+    background: transparent !important;
 }
 
 .wufoo .focused {
@@ -104,6 +99,12 @@ form li div span {
     color: #444444
 }
 
+#errorLi{
+  background-color: transparent !important;
+  border: none;
+  margin: 0px;
+}
+
 .wufoo label.desc,
 .wufoo legend.desc {
     font-size: 95%;
@@ -113,6 +114,7 @@ form li div span {
 
 .wufoo li {
     width: 100%;
+    padding: 9px 0px;
 }
 
 .wufoo li div,
