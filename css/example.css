@@ -30,6 +30,7 @@ html {
 #errorMsg b{
   background-color: transparent !important;
   padding: 0px !important;
+  color: inherit !important;
 }
 
 #errorMsg{
